@@ -58,7 +58,7 @@ def log_command(user_id, target, port, time):
         username = f"UserID: {user_id}"
     
     with open(LOG_FILE, "a") as file:  # Open in "append" mode
-        file.write(f"Username: {username}\nTarget: {target}\nPort: {port}\nTime: {time}\n
+        file.write(f"Username: {username}\nTarget: {target}\nPort: {port}\nTime: {time}\n\n")
 
 
 # Function to clear logs
